@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book and Pen Store</title>
+    <link rel="stylesheet" href="j.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Book and Pen Store</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="pens.html">Pens</a></li>
+          
+        </ul>
+    
+    <section id="books">
+        <h2>Books</h2>
+        <div class="item">
+            <img src="book1.jpg" alt="Book 1">
+            <h3>Book Title 1</h3>
+            <p>Author: Author 1</p>
+            <p>Description of the book goes here.</p>
+        </div>
+        <div class="item">
+            <img src="book2.jpg" alt="Book 2">
+            <h3>Book Title 2</h3>
+            <p>Author: Author 2</p>
+            <p>Description of the book goes here.</p>
+        </div>
+    </section>
+    
+    <section id="pens">
+        <h2>Pens</h2>
+        <div class="item">
+            <img src="pen1.jpg" alt="Pen 1">
+            <h3>Pen Model 1</h3>
+            <p>Brand: Brand 1</p>
+            <p>Description of the pen goes here.</p>
+        </div>
+        <div class="item">
+            <img src="pen2.jpg" alt="Pen 2">
+            <h3>Pen Model 2</h3>
+            <p>Brand: Brand 2</p>
+            <p>Description of the pen goes here.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Book and Pen Store. All rights reserved.</p>
+        <p>contact</p>
+        <p>Email; ghambayay@gmail.com</p>
+        <p>phone number;225 765 337 882</p>
+    </footer>
+</body>
+</html>
